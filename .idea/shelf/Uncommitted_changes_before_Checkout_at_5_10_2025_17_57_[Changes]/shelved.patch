@@ -1,0 +1,58 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"deb66732-b0b1-4c69-b292-e1e08291d07b\" name=\"Changes\" comment=\"Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados\">\r\n      <change beforePath=\"$PROJECT_DIR$/Scrapping/data/urls.csv\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Scrapping/scripts/sitemap_collector.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Scrapping/scripts/sitemap_collector.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"maría\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;SmackCat25&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/SmackCat25/proyecto_urbania&quot;,\r\n    &quot;accountId&quot;: &quot;7a6444f0-3b29-45fe-b3ec-dc62ba73b217&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"33ZcohqjJWeBk3sQAgCF0xFUaQg\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"Python.scrapper.executor\": \"Run\",\r\n    \"Python.sitemap_collector.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"dev\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.keymap\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-PY-252.23892.515\" />\r\n        <option value=\"bundled-python-sdk-7e47963ff851-f0eec537fc84-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.23892.515\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"deb66732-b0b1-4c69-b292-e1e08291d07b\" name=\"Changes\" comment=\"\" />\r\n      <created>1759528211488</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1759528211488</updated>\r\n      <workItem from=\"1759528212611\" duration=\"1479000\" />\r\n      <workItem from=\"1759679671156\" duration=\"3568000\" />\r\n      <workItem from=\"1759683483262\" duration=\"6062000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Pruebas\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759528527765</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759528527765</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"se agregaron carpetas de data\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759530117984</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759530117984</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1759703689447</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1759703689447</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Pruebas\" />\r\n    <MESSAGE value=\"Merge pull request #2 from SmackCat25/dev&#10;&#10;Create README.md\" />\r\n    <MESSAGE value=\"Create README.md\" />\r\n    <MESSAGE value=\"se agregaron carpetas de data\" />\r\n    <MESSAGE value=\"Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/main.py</url>\r\n          <line>8</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/Urbania_Proyecto$sitemap_collector.coverage\" NAME=\"sitemap_collector Coverage Results\" MODIFIED=\"1759703807031\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Scrapping/scripts\" />\r\n    <SUITE FILE_PATH=\"coverage/Urbania_Proyecto$scrapper.coverage\" NAME=\"scrapper Coverage Results\" MODIFIED=\"1759703281172\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Scrapping/scripts\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a227580648e854f44874286d813ec5c11b4d1998)
++++ b/.idea/workspace.xml	(date 1759704970745)
+@@ -4,9 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="deb66732-b0b1-4c69-b292-e1e08291d07b" name="Changes" comment="Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados">
+-      <change beforePath="$PROJECT_DIR$/Scrapping/data/urls.csv" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Scrapping/scripts/sitemap_collector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/scripts/sitemap_collector.py" afterDir="false" />
++    <list default="true" id="deb66732-b0b1-4c69-b292-e1e08291d07b" name="Changes" comment="Se cambió de ruta al urls.csv">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -83,7 +82,7 @@
+       <updated>1759528211488</updated>
+       <workItem from="1759528212611" duration="1479000" />
+       <workItem from="1759679671156" duration="3568000" />
+-      <workItem from="1759683483262" duration="6062000" />
++      <workItem from="1759683483262" duration="6407000" />
+     </task>
+     <task id="LOCAL-00001" summary="Pruebas">
+       <option name="closed" value="true" />
+@@ -109,7 +108,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1759703689447</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="Se cambió de ruta al urls.csv">
++      <option name="closed" value="true" />
++      <created>1759703884513</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1759703884513</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -144,7 +151,8 @@
+     <MESSAGE value="Create README.md" />
+     <MESSAGE value="se agregaron carpetas de data" />
+     <MESSAGE value="Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados" />
++    <MESSAGE value="Se cambió de ruta al urls.csv" />
++    <option name="LAST_COMMIT_MESSAGE" value="Se cambió de ruta al urls.csv" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
