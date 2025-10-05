@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping\data"
 ROBOTS_URL = "https://urbania.pe/robots.txt"
+DATA_URL = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping"
 
 def get_sitemaps_from_robots():
     """Lee robots.txt y devuelve todos los sitemaps declarados"""
@@ -58,7 +59,7 @@ def download_and_parse_all():
         browser.close()
 
     # 7. Guardar todos los URLs en un CSV único
-    csv_path = os.path.join(DATA_DIR, "urls.csv")
+    csv_path = os.path.join(DATA_URL, "urls.csv")
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["url"])
