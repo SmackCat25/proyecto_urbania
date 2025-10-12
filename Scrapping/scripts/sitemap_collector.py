@@ -1,10 +1,15 @@
 from playwright.sync_api import sync_playwright
 import gzip, os, csv, requests
 from bs4 import BeautifulSoup
+from pathlib import Path
 
-DATA_DIR = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping\data"
+# DATA_DIR = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping\data"
+# DATA_URL = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping"
+
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # sube dos niveles
+DATA_DIR = BASE_DIR / "Scrapping" / "data"
+DATA_URL = BASE_DIR / "Scrapping"
 ROBOTS_URL = "https://urbania.pe/robots.txt"
-DATA_URL = r"C:\Users\maria\PycharmProjects\Urbania_Proyecto\Scrapping"
 
 def get_sitemaps_from_robots():
     """Lee robots.txt y devuelve todos los sitemaps declarados"""
