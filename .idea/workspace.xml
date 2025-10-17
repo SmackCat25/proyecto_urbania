@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb66732-b0b1-4c69-b292-e1e08291d07b" name="Changes" comment="Se creó sitemap_collector&#10;Output: CSV url">
+    <list default="true" id="deb66732-b0b1-4c69-b292-e1e08291d07b" name="Changes" comment="Se agrega csv con 100 urls scrappeados (departamentos y locales)">
+      <change afterPath="$PROJECT_DIR$/Scrapping/inmuebles_maria.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2025_10_54_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_10_2025_10_54__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_core_https.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_core_https.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_im_https_1.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_im_https_1.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_list_emp_https_1.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_list_emp_https_1.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_list_https_1.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_list_https_1.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_prop_emp_https_1.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_prop_emp_https_1.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/data/sitemap_prop_https_1.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/data/sitemap_prop_https_1.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/inmuebles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/inmuebles.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapping/inmuebles.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrapping/scripts/scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/scripts/scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapping/urls.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapping/urls.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="kim" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,6 +91,7 @@
       <workItem from="1759683483262" duration="6062000" />
       <workItem from="1759883517322" duration="276000" />
       <workItem from="1760223814912" duration="16215000" />
+      <workItem from="1760662618408" duration="2715000" />
     </task>
     <task id="LOCAL-00001" summary="Pruebas">
       <option name="closed" value="true" />
@@ -164,11 +161,12 @@
     <MESSAGE value="se agregaron carpetas de data" />
     <MESSAGE value="Se creó el sitemap_collector.py&#10;Output: CSV con links para ser scrappeados" />
     <MESSAGE value="Se creó sitemap_collector&#10;Output: CSV url" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se creó sitemap_collector&#10;Output: CSV url" />
+    <MESSAGE value="Se agrega csv con 100 urls scrappeados (departamentos y locales)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega csv con 100 urls scrappeados (departamentos y locales)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Urbania_Proyecto$sitemap_collector.coverage" NAME="sitemap_collector Coverage Results" MODIFIED="1760576823715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping/scripts" />
-    <SUITE FILE_PATH="coverage/Urbania_Proyecto$scrapper.coverage" NAME="scrapper Coverage Results" MODIFIED="1760578074874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping/scripts" />
+    <SUITE FILE_PATH="coverage/Urbania_Proyecto$scrapper.coverage" NAME="scrapper Coverage Results" MODIFIED="1760669464458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Scrapping/scripts" />
     <SUITE FILE_PATH="coverage/Urbania_Proyecto$main.coverage" NAME="main Coverage Results" MODIFIED="1760574658800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

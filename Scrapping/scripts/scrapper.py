@@ -14,14 +14,14 @@ from datetime import datetime
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 DATA_URL = BASE_DIR / "Scrapping"
-OUTPUT_FILE_NAME = "inmuebles.csv"
+OUTPUT_FILE_NAME = "inmuebles_maria.csv"
 
 # Cargar y filtrar URLs
 lista_urls = pd.read_csv(DATA_URL / "urls.csv", delimiter=';')
 lista_urls = lista_urls[lista_urls['url'].str.contains("/inmueble/")&lista_urls['url'].str.contains("-alquiler-")]
 print(f"Total de URLs encontradas: {lista_urls.shape[0]}")
 
-URLS = lista_urls['url'][:10].tolist()
+URLS = lista_urls['url'][1996:2000].tolist()
 
 # Cargar URLs ya scrapeadas
 urls_scrapeadas = set()
@@ -39,9 +39,14 @@ print(f"URLs nuevas a scrapear: {len(URLS)}\n")
 
 
 def clean_text(text):
-    """Limpia espacios en blanco y saltos de línea"""
+    """Limpia espacios en blanco, saltos de línea y emojis"""
     if not text:
         return None
+    # Remover solo emojis
+    text = re.sub(r'[\U0001F300-\U0001F9FF]', '', text)  # Emojis
+    text = re.sub(r'[\u2600-\u26FF]', '', text)  # Símbolos diversos
+    text = re.sub(r'[\uFE00-\uFE0F]', '', text)  # Selectores de variación (causa del error)
+    # Limpiar espacios múltiples
     cleaned = re.sub(r'\s+', ' ', text).strip()
     return cleaned if cleaned else None
 
@@ -159,7 +164,7 @@ def append_to_csv(data):
 
     file_exists = output_file.exists()
 
-    with open(output_file, mode="a" if file_exists else "w", newline="") as f:
+    with open(output_file, mode="a" if file_exists else "w", newline="", encoding='utf-8-sig') as f:
         writer = csv.DictWriter(f, fieldnames=data[0].keys(), delimiter=';')
         if not file_exists:
             writer.writeheader()
