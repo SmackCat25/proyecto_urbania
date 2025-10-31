@@ -21,7 +21,7 @@ lista_urls = pd.read_csv(DATA_URL / "urls.csv", delimiter=';')
 lista_urls = lista_urls[lista_urls['url'].str.contains("/inmueble/")&lista_urls['url'].str.contains("-alquiler-")]
 print(f"Total de URLs encontradas: {lista_urls.shape[0]}")
 
-URLS = lista_urls['url'][1996:2000].tolist()
+URLS = lista_urls['url'][:1].tolist()
 
 # Cargar URLs ya scrapeadas
 urls_scrapeadas = set()
